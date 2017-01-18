@@ -3,6 +3,9 @@
     <div class="box">
       <div class="box-header with-border">
         <h3 class="box-title">Günlükler</h3>
+        <div class="pull-right box-tools">
+            <a href=""> <button type="button" class="btn btn-info btn-sm" data-toggle="tooltip" title="Ekle"> <i class="fa fa-plus "></i> </button></a>
+          </div>
       </div>
       <!-- /.box-header -->
       <div class="box-body">
@@ -19,9 +22,12 @@
             <td>Harika bir gün!!</td>
             <td>Harun hoca dersi iptal ettiği için çok mutlu oldum.</td>
             <td>17 Ocak 2017 18:56</td>
-            <td>Düzenle | Sil</td>
+            <td>
+                <a href=""> <button type="button" class="btn btn-info btn-sm"  data-toggle="tooltip" title="Düzenle"> <i class="fa fa-pencil "></i> </button></a>
+                <a href=""> <button type="button" class="btn btn-info btn-sm"  data-toggle="tooltip" title="Sil"> <i class="fa fa-trash-o"></i> </button></a>
+            </td>
           </tr>
-          
+
         </table>
       </div>
       <!-- /.box-body -->
